@@ -1,0 +1,94 @@
+@font-face {
+    font-family: tekst;
+    src: url(fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: naslov;
+    src: url(fonts/Merriweather-Bold.ttf);
+}
+body {
+    font-family: tekst;
+    margin: 0;
+    padding: 0;
+    background-color: #e9edc9;
+}
+img {
+    width: 30%;
+    display: inline;
+}
+video {
+    margin: 0 auto;
+    width: 45%;
+    display: block;
+    padding: 5px;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #6b9080;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #a5a58d;
+}
+h4 {
+    font-size: 30px;
+}
+h1, h2, h3 {
+    font-family: naslov;
+}
+header {
+    
+}
+nav {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #52796f;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    padding: 10px;
+    color: #6b9080;
+    text-decoration: none;
+    margin: auto 0 0 10px;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #fcbf49;
+}
+article {
+    column-count: 3;
+    column-width: 250px;
+    column-gap: 40px;
+    margin: 30px;
+}
+.gallery {
+    width: 70%;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+
+iframe {
+    align-content: center;
+    
+}
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+    text-indent: bold;
+}
